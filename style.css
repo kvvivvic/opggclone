@@ -1,0 +1,138 @@
+body {
+  background-color: #5383E8;
+  width: 100%;
+  height: 800px;
+}
+/* HEADER */
+header {
+  display: flex;
+  height: 40px;
+  justify-content: space-around;
+}
+header .header__logo {
+  padding: 12px 12px;
+  width: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+header .header__logo .main {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}
+header .header__logo .main .title {
+  white-space:nowrap
+}
+header .header__nav .main .img__logo {
+  width: 24px;
+  height: 24px;
+  aspect-ratio: auto 24/24;
+  
+}
+header .header__nav {
+  display: flex;
+  width: 80%;
+  background-color: #232f46;
+  border: none;
+}
+header .header__nav ul {
+  display: flex;
+}
+header .header__nav li {
+  display: flex;
+  padding: 8px;
+  margin: 4px 4px 4px 4px;
+}
+header .header__nav li:first-child {
+  padding-left: 0;
+}
+header .header__nav li:hover {
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #2F436E;
+}
+header .header__nav li a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  text-decoration: none;
+  padding: 4px;
+}
+header .header__nav li a .img__logo {
+  width: 24px;
+  height: 24px;
+  aspect-ratio: auto 24/24;
+}
+header .header__nav li .new {
+  width: 16px;
+  height: 16px;
+  color: #232f46;
+  text-align: center;
+  margin: -4px 0 0 8px;
+  line-height: 18px;
+  font-size: 11px;
+  font-weight: bold;
+  background-color:#FFB900;
+  border-radius: 50%;
+
+}
+header .header__nav li .title {
+  display: flex;
+  font-size: 12px;
+  margin-left: 4px;
+  margin-top: -1px;
+  color: #C3CBD1;
+  text-align: left;
+  white-space: nowrap;
+}
+header .header__loginbar {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #232f46;
+}
+header .header__logo .main .title {
+  color: #FFFFFF;
+  margin-left: 4px;
+}
+header .header__logo .main .img__logo {
+  width: 24px;
+  height: 24px;
+  margin-left: 20px;
+}
+header .header__loginbar .more {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  
+}
+header .header__loginbar .more .lag {
+  color: #C3CBD1;
+  font-size: 12px;
+  margin-top: 4px;
+  margin-left: 4px;
+  height:15px;
+}
+header .header__loginbar .loginbtn {
+  flex-grow: 1;
+}
+header .header__loginbar .more .morebtn {
+  background-color: #232f46;
+  border-style: none;
+  color: #FFFFFF;
+  font-size: 9px;
+  margin-bottom: 4px; 
+}
+header .header__loginbar .loginbtn a {
+  color: #FFF;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 6px 16px;
+  background-color: #5383E8;
+  border-radius: 4px;
+  width: 31px;
+  height: 18px;
+}
