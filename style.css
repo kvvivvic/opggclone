@@ -136,3 +136,133 @@ header .header__loginbar .loginbtn a {
   width: 31px;
   height: 18px;
 }
+
+/* NAV BAR */
+.route {
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #4171d6;
+}
+.route .route-nav {
+  display: flex;
+}
+.route .route-nav .route-list {
+  display: flex;
+  width: 1300px;
+  height: 45px;
+  align-items: center;
+}
+.route .route-nav .route-list li {
+  padding: 0 10px;
+}
+.route .route-nav .route-list li a {
+  color: #B3CDFF;
+  list-style: none;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding-bottom: 13px;
+  padding-top: 4px;
+}
+.route .route-nav .route-list li a.route-color {
+  color:#00fede;
+}
+.route .route-nav .route-list li a.home {
+  color: #FFFFFF;  
+  box-sizing: border-box;
+  border-bottom: 3px solid #FFFFFF;
+  padding-bottom: 13px;
+  padding-top: 4px;
+}
+.route .route-nav .route-list li a:hover {
+  color: #FFFFFF;
+  border-bottom: 3px solid #FFFFFF;
+}
+
+/* BANNER */
+section.banner {
+  height: 40px;
+  background-color: #294174;
+  font-size: 12px;
+  position: relative;
+}
+section.banner .banner_title a {
+  font-size: 12px;
+  color: #FFFFFF;
+  text-decoration: none;
+  line-height: 40px;
+  position: absolute;
+  text-align: center;
+  left:425px;
+}
+section.banner .banner_title a:hover {
+  text-decoration: underline;
+}
+/* MAIN LOGO */
+section.logo {  
+  position: relative;
+  text-align: center;
+  right: 170px;
+  padding: 32px 0 24px 0;
+  width: 100%;
+  height: 200px;
+}
+section.logo .main-logo img {
+  height: 200px;
+  position: absolute;
+}
+/* SEARCH BAR */
+.search-mode {
+  position: relative;
+  width: 600px;
+  height: 50px;
+  margin: auto;
+}
+input {
+  border: 1px solid #F1F1F1;
+  border-radius: 2px;
+  width: 100%;
+  height: 100%;
+  padding-left: 20px;
+  display: flex;  
+}
+input:focus {
+  outline: none;
+}
+.icon {
+  
+  display: flex;
+  position: absolute;
+  right:-14px;
+  align-items: center;
+  top:2px;
+  padding: 6px 2px 2px 4px;
+}
+.icon #gg {
+  background-color: #01A9FF;
+  width: 40px;
+  height: 14px;
+  border-radius: 1px;
+  padding: 10px 6px;
+
+}
+.icon .kr {
+  font-size: 13.3333px;
+  font-weight: 400;
+  width: 28px;
+  height: 14px;
+  box-sizing: border-box;
+  padding: 2px 14px;
+  padding-left: 5px;
+  background-color: #788185;
+  color: #FFFFFF; 
+}
+.icon .search {
+  color: #999;
+  padding: 0 32px 0 14px;
+  width: 2px;
+  font-size: 6px;
+}
